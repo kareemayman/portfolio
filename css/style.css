@@ -25,6 +25,69 @@ a {
 }
 
 /* Start Local Rules */
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ededed;
+}
+
+header .container .left a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: black;
+    transition: 0.3s;
+}
+
+header .container .left a:hover h3 {
+    text-decoration: underline;
+}
+
+header .container .left div {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 70px;
+}
+
+header .container .left div img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+header .container .left h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    color: #555;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: 0.5s;
+    text-align: center;
+    margin-inline: 3px;
+}
+
+header nav a:hover {
+    background-color: #f1f1f1;
+}
+
+header nav a:last-of-type {
+    color: white;
+    background-color: #0a61ae;
+}
+
+header nav a:last-of-type:hover {
+    background-color: black;
+}
 /* End Local Rules */
 
 /* Start Media Queries */
