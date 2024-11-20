@@ -189,6 +189,35 @@ header nav a:last-of-type:hover {
 .about .container .hero-picture img {
     height: 100%;
 }
+
+.scroll-skills .container {
+    padding-bottom: 30px;
+}
+
+.scroll-skills .container .scroll-bar {
+    display: flex;    
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 30px;
+    border-radius: 30px;
+}
+
+.scroll-skills .container .scroll-bar div {
+    animation: skills 13s linear infinite;
+}
+
+@keyframes skills {
+    0% {
+        translate: 0;
+    }
+
+    100% {
+        translate: -1565%;
+    }
+}
+
 /* End Local Rules */
 
 /* Start Media Queries */
