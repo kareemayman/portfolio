@@ -91,8 +91,10 @@ header nav a:last-of-type:hover {
 /* End Local Rules */
 
 /* Start Media Queries */
-@media (width < 760px) {
-    
+@media (width < 992px) {
+    .desktop {
+        display: none;
+    }
 }
 
 @media (min-width: 769px) {
@@ -105,11 +107,21 @@ header nav a:last-of-type:hover {
     .container {
         width: 970px;
     }
+
+    .mobile {
+        display: none;
+    }
 }
 
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1300px;
     }
 }
 /* End Media Queries */
