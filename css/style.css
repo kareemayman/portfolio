@@ -297,6 +297,7 @@ header nav a:last-of-type:hover {
     border-radius: 30px;
     background-color: #cdf1fc;
     width: 100%;
+    box-shadow: 2px 0 10px 4px #b6b6b633;
 }
 
 .skills .container .flex > div {
@@ -335,7 +336,7 @@ header nav a:last-of-type:hover {
     height: 100%;
     background-color: #61dafb;
     width: 0;
-    transition: 2s;
+    transition: 3s;
 }
 
 /* .skills .html span {
