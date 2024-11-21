@@ -297,9 +297,10 @@ header nav a:last-of-type:hover {
     height: 100%;
     background-color: #61dafb;
     width: 0;
+    transition: 2s;
 }
 
-.skills .html span {
+/* .skills .html span {
     width: 90%;
 }
 
@@ -321,7 +322,7 @@ header nav a:last-of-type:hover {
 
 .skills .problem-solving span {
     width: 80%;
-}
+} */
 /* End Local Rules */
 
 /* Start Media Queries */
