@@ -26,6 +26,28 @@ a {
     padding-inline: 15px;
 }
 
+.scroll-to-top-button {
+    position: fixed;
+    border-radius: 50%;
+    width: 50px;
+    aspect-ratio: 1 / 1;
+    background-color: #ffda4b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    bottom: 30px;
+    right: 30px;
+    transition: opacity 0.5s;
+    opacity: 0;
+    z-index: 10000;
+}
+
+.scroll-to-top-button:hover {
+    background-color: #d8b734;
+}
+
 /* Start Local Rules */
 header .container {
     display: flex;
@@ -323,6 +345,15 @@ header nav a:last-of-type:hover {
 .skills .problem-solving span {
     width: 80%;
 } */
+
+.projects .special::before {
+    content: "Previous";
+}
+
+.projects .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 /* End Local Rules */
 
 /* Start Media Queries */
