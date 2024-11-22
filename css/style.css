@@ -399,27 +399,27 @@ header nav a:last-of-type:hover {
 }
 
 .projects .grid a:first-of-type div {
-    background-image: url('/imgs/sunnyside.png');
+    background-image: url('../imgs/sunnyside.png');
 }
 
 .projects .grid a:nth-of-type(2) div {
-    background-image: url('/imgs/hangman.png');
+    background-image: url('../imgs/hangman.png');
 }
 
 .projects .grid a:nth-of-type(3) div {
-    background-image: url('/imgs/insure.png');
+    background-image: url('../imgs/insure.png');
 }
 
 .projects .grid a:nth-of-type(4) div {
-    background-image: url('/imgs/meal-finder.png');
+    background-image: url('../imgs/meal-finder.png');
 }
 
 .projects .grid a:nth-of-type(5) div {
-    background-image: url('/imgs/ultimate.png');
+    background-image: url('../imgs/ultimate.png');
 }
 
 .projects .grid a:nth-of-type(6) div {
-    background-image: url('/imgs/loopstudios.png');
+    background-image: url('../imgs/loopstudios.png');
 }
 
 .contact .container {
