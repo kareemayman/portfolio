@@ -440,6 +440,7 @@ header nav a:last-of-type:hover {
     align-items: center;
     border-radius: 30px;
     border: 2px solid #888888;
+    box-shadow: 2px 0 10px 4px #d1d1d159;
 }
 
 .contact .container .info > div {
@@ -467,7 +468,7 @@ header nav a:last-of-type:hover {
 }
 
 .contact .container .info > div a:hover {
-    text-shadow: 0 0 4px rgb(168, 168, 168);
+    text-shadow: 0 0 3px rgb(168, 168, 168);
 }
 
 .contact .container .info > div:first-of-type a {
@@ -485,6 +486,30 @@ header nav a:last-of-type:hover {
     bottom: -10px;
 }
 
+footer .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+footer .container a {
+    margin-inline: 10px;
+    color: #555;
+    transition: 0.5s;
+}
+
+footer .container a:hover {
+    color: black;
+    text-shadow: 0 0 3px rgb(168, 168, 168);
+}
+
+footer .container p {
+    padding: 20px 0 15px;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    color:#888888
+}
 /* End Local Rules */
 
 /* Start Media Queries */
@@ -546,6 +571,11 @@ header nav a:last-of-type:hover {
 
     .contact .container .info > div {
         font-size: 12px;
+    }
+
+    footer .container a,
+    footer .container p {
+        font-size: 14px;
     }
 }
 
