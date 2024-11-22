@@ -3,6 +3,10 @@ const skills = Array.from(document.querySelectorAll('.skills .flex div div'))
 
 const scrollToTopButton = document.querySelector('.scroll-to-top-button')
 
+const burgerIcon = document.querySelector('header i:first-of-type')
+const mobileMenu = document.querySelector('.mobile-menu')
+const closeMobileMenuIcon = document.querySelector('.mobile-menu .flex i')
+
 // Scroll Event
 window.addEventListener('scroll', e => {
 
@@ -36,4 +40,25 @@ scrollToTopButton.addEventListener('click', e => {
         behavior: "smooth",
         top: 0  
     })
+})
+
+// Event For Clicking On Burger Icon
+burgerIcon.addEventListener('click', e => {
+
+    // Show Mobile Menu
+    mobileMenu.classList.add('show-mobile-menu')
+    // Disable Scrolling
+    document.body.classList.add('disable-scroll')
+})
+
+// Event For Closing Mobile Menu
+mobileMenu.addEventListener('click', e => {
+
+    // If X Button Was Clicked
+    if (e.target.matches('i') || e.target.matches('a')) {
+
+        mobileMenu.classList.toggle('show-mobile-menu')
+        // Enable Scrolling
+        document.body.classList.remove('disable-scroll')
+    }
 })
