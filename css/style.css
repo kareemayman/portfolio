@@ -64,6 +64,9 @@ a {
     background-color: white;
 }
 
+::selection {
+    background-color: #ffda4b;
+}
 /* Start Local Rules */
 header .container {
     display: flex;
