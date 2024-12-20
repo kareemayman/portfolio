@@ -136,7 +136,7 @@ header nav a {
 }
 
 header nav a:hover {
-    background-color: #f1f1f1;
+    background-color: #d3d3d3;
 }
 
 header nav a:last-of-type {
@@ -162,6 +162,7 @@ header nav a:last-of-type:hover {
     padding: 30px;
     color: black;
     position: relative;
+    box-shadow: 2px 0 10px 4px #e0e0e033;
 }
 
 .about .container .about-me {
