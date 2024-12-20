@@ -17,9 +17,11 @@ window.addEventListener('scroll', e => {
     if (scrollPos >= 250) {
         
         scrollToTopButton.style.opacity = 1
+        scrollToTopButton.style.scale = 1
     } else {
 
         scrollToTopButton.style.opacity = 0
+        scrollToTopButton.style.scale = 0.1
     }
 
     // For Skills Progress Bar

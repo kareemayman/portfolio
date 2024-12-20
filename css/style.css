@@ -38,10 +38,11 @@ a {
     cursor: pointer;
     color: white;
     bottom: 30px;
-    right: 30px;
-    transition: opacity 0.5s;
+    right: 30px;;
+    transition: opacity 0.5s, scale 0.3s;
     opacity: 0;
     z-index: 10000;
+    scale: 0.1;
 }
 
 .scroll-to-top-button:hover {
