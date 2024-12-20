@@ -68,6 +68,17 @@ a {
 ::selection {
     background-color: #ffda4b;
 }
+
+#particles-js {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100dvh;
+    z-index: -1;
+    background-color: #f1f1f1;
+}
+
 /* Start Local Rules */
 header .container {
     display: flex;
@@ -250,6 +261,7 @@ header nav a:last-of-type:hover {
     padding-bottom: 30px;
     gap: 30px;
     border-radius: 30px;
+    box-shadow: 2px 0 10px 4px #b6b6b633;
 }
 
 .scroll-skills .container .scroll-bar div {
@@ -558,6 +570,7 @@ header .container > i:first-of-type {
 .show-mobile-menu {
     right: 0;
 }
+
 /* End Local Rules */
 
 /* Start Media Queries */
