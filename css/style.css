@@ -163,10 +163,15 @@ header nav a:last-of-type:hover {
     color: black;
     position: relative;
     box-shadow: 2px 0 10px 4px #e0e0e033;
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
 }
 
 .about .container .about-me {
     background-color: #e2f8ff;
+
+    background-image: linear-gradient(#cce6fc, #97dbee);
+    
 }
 
 .about .about-me h1:first-of-type {
@@ -232,6 +237,8 @@ header nav a:last-of-type:hover {
 
 .about .container .hero-picture {
     background-color: #ffda4b;
+
+    background-image: linear-gradient(#ffda4b, #ffa061);
 }
 
 .about .container .hero-picture {
@@ -263,6 +270,13 @@ header nav a:last-of-type:hover {
     gap: 30px;
     border-radius: 30px;
     box-shadow: 2px 0 10px 4px #b6b6b633;
+
+    
+    /* border: 2px solid transparent;
+  background-clip: padding-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.178); */
+
+  background: linear-gradient(to right, #ffb07b, #b1dbff);
 }
 
 .scroll-skills .container .scroll-bar div {
@@ -312,10 +326,11 @@ header nav a:last-of-type:hover {
     align-items: center;
     gap: 60px;
     padding: 40px 60px 60px;
-    border-radius: 30px;
     background-color: #cdf1fc;
     width: 100%;
-    box-shadow: 2px 0 10px 4px #b6b6b633;
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .skills .container .flex > div {
@@ -336,6 +351,7 @@ header nav a:last-of-type:hover {
     left: 0;
     font-weight: 500;
     font-style: italic;
+    letter-spacing: 2px;
 }
 
 .skills .container .flex div div::after {
@@ -352,7 +368,8 @@ header nav a:last-of-type:hover {
 .skills span {
     display: block;
     height: 100%;
-    background-color: #61dafb;
+    /* background-color: #61dafb; */
+    background-image: linear-gradient(to right, #0a61ae, #61dafb);
     width: 0;
     transition: 3s;
 }
