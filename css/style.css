@@ -205,7 +205,7 @@ header nav a:last-of-type:hover {
 }
 
 .about .about-me .buttons a:first-child:hover {
-    background-color: rgb(77, 77, 77);
+    background-color: rgba(32, 32, 32, 0.89);
 }
 
 .about .about-me .buttons a:last-child {
