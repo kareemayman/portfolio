@@ -272,9 +272,7 @@ header nav a:last-of-type:hover {
     box-shadow: 2px 0 10px 4px #b6b6b633;
 
     
-    /* border: 2px solid transparent;
-  background-clip: padding-box;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.178); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.178);
 
   background: linear-gradient(to right, #ffb07b, #b1dbff);
 }
