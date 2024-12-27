@@ -396,13 +396,17 @@ header nav a:last-of-type:hover {
     width: 80%;
 } */
 
-.projects .special::before {
-    content: "Previous";
+.projects .special:first-of-type:before {
+    content: "Vanilla JS";
 }
 
 .projects .container {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.projects .container .grid:first-of-type {
+    padding-bottom: 60px;
 }
 
 .projects .grid a {
@@ -449,6 +453,36 @@ header nav a:last-of-type:hover {
 
 .projects .grid a:nth-of-type(6) div {
     background-image: url('../imgs/loopstudios.png');
+}
+
+.projects .container .grid:last-of-type {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
+}
+
+.projects .special:last-of-type:before {
+    content: "React.js";
+}
+
+.projects .container .grid:last-of-type a {
+    grid-column: auto;
+    grid-row: auto;
+}
+
+.projects .container .grid:last-of-type a:first-of-type div {
+    background-image: url('../imgs/blogr.png');
+}
+
+.projects .container .grid:last-of-type a:nth-of-type(2) div {
+    background-image: url('../imgs/advie-gen.png');
+}
+
+.projects .container .grid:last-of-type a:nth-of-type(3) div {
+    background-image: url('../imgs/age-calculator.png');
+}
+
+.projects .container .grid:last-of-type a:last-of-type div {
+    background-image: url('../imgs/contact.png');
 }
 
 .contact .container {
@@ -713,6 +747,22 @@ header .container > i:first-of-type {
         grid-column: 1 / 5;
         grid-row: 3 / 3;
     }
+/* 
+    .projects .container .grid:last-of-type a:first-of-type {
+        grid-column: 1 / span 1;
+    }
+
+    .projects .container .grid:last-of-type a:nth-of-type(2) {
+        grid-column: 2 / span 1;
+    }
+
+    .projects .container .grid:last-of-type a:nth-of-type(3) {
+        grid-column: 1 / span 1;
+    }
+
+    .projects .container .grid:last-of-type a:last-of-type {
+        grid-column: 2 / span 1;
+    } */
 }
 
 @media (min-width: 1200px) {
