@@ -665,6 +665,7 @@ header .container > i:first-of-type {
     .skills .container .flex {
         flex-direction: column;
         gap: 0;
+        padding: 40px 40px 60px;
     }
 
     .skills .container .flex > div {
