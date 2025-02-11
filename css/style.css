@@ -396,7 +396,7 @@ header nav a:last-of-type:hover {
     width: 80%;
 } */
 
-.projects .special:first-of-type:before {
+.projects .special.vanilla-js::before {
     content: "Vanilla JS";
 }
 
@@ -431,57 +431,57 @@ header nav a:last-of-type:hover {
     scale: 1.2;
 }
 
-.projects .grid a:first-of-type div {
+.projects .grid.vanilla-js a:first-of-type div {
     background-image: url('../imgs/sunnyside.png');
 }
 
-.projects .grid a:nth-of-type(2) div {
+.projects .grid.vanilla-js a:nth-of-type(2) div {
     background-image: url('../imgs/hangman.png');
 }
 
-.projects .grid a:nth-of-type(3) div {
+.projects .grid.vanilla-js a:nth-of-type(3) div {
     background-image: url('../imgs/insure.png');
 }
 
-.projects .grid a:nth-of-type(4) div {
+.projects .grid.vanilla-js a:nth-of-type(4) div {
     background-image: url('../imgs/meal-finder.png');
 }
 
-.projects .grid a:nth-of-type(5) div {
+.projects .grid.vanilla-js a:nth-of-type(5) div {
     background-image: url('../imgs/ultimate.png');
 }
 
-.projects .grid a:nth-of-type(6) div {
+.projects .grid.vanilla-js a:nth-of-type(6) div {
     background-image: url('../imgs/loopstudios.png');
 }
 
-.projects .container .grid:last-of-type {
+.projects .container .grid.react {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: none;
 }
 
-.projects .special:last-of-type:before {
+.projects .special.react::before {
     content: "React.js";
 }
 
-.projects .container .grid:last-of-type a {
+.projects .container .grid.react a {
     grid-column: auto;
     grid-row: auto;
 }
 
-.projects .container .grid:last-of-type a:first-of-type div {
+.projects .container .grid.react a:first-of-type div {
     background-image: url('../imgs/blogr.png');
 }
 
-.projects .container .grid:last-of-type a:nth-of-type(2) div {
+.projects .container .grid.react a:nth-of-type(2) div {
     background-image: url('../imgs/advie-gen.png');
 }
 
-.projects .container .grid:last-of-type a:nth-of-type(3) div {
+.projects .container .grid.react a:nth-of-type(3) div {
     background-image: url('../imgs/age-calculator.png');
 }
 
-.projects .container .grid:last-of-type a:last-of-type div {
+.projects .container .grid.react a:last-of-type div {
     background-image: url('../imgs/contact.png');
 }
 
@@ -712,7 +712,7 @@ header .container > i:first-of-type {
     .projects .grid {
         width: 100%;
         display: grid;
-        gap: 30px;
+        gap: 20px;
         grid-template-columns: 40% repeat(3, 1fr);
         grid-template-rows: 25% 25% 1fr;
         min-height: 800px;
