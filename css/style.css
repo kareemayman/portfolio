@@ -45,6 +45,10 @@ a {
     scale: 0.1;
 }
 
+.scroll-to-top-button:active {
+    scale: 0.7 !important;
+}
+
 .scroll-to-top-button:hover {
     background-color: #064377;
 }
@@ -287,7 +291,7 @@ header nav a:last-of-type:hover {
     }
 
     100% {
-        translate: calc( -1927% + 10px);
+        translate: calc( -2167% + 10px);
     }
 }
 
