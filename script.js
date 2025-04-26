@@ -1,3 +1,5 @@
+AOS.init()
+
 const skillSection = document.getElementById('skills')
 const skills = Array.from(document.querySelectorAll('.skills .flex div div'))
 
