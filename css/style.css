@@ -256,6 +256,10 @@ header nav a:last-of-type:hover {
     left: 50%;
     translate: -50% 0;
     height: 130%;
+
+    @media (max-width: 768px) {
+        height: 100%;
+    }
 }
 
 .about .container .hero-picture img {
